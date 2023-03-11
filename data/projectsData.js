@@ -1,11 +1,4 @@
 import { v4 as uuidv4 } from "uuid";
-import {
-  FiFacebook,
-  FiInstagram,
-  FiLinkedin,
-  FiTwitter,
-  FiYoutube,
-} from "react-icons/fi";
 
 export const projectsData = [
   {
@@ -157,7 +150,7 @@ export const projectsData = [
         {
           id: uuidv4(),
           title: "Website",
-          details: "https://shopit-iota.vercel.app/",
+          webdetails: "https://shopit-iota.vercel.app/",
         },
       ],
       ObjectivesHeading: "Objective",
@@ -265,7 +258,7 @@ export const projectsData = [
         {
           id: uuidv4(),
           title: "Website",
-          details: "https://tomiwakukoyi.github.io/youtube-clone",
+          webdetails: "https://tomiwakukoyi.github.io/youtube-clone",
         },
       ],
       ObjectivesHeading: "Objective",
@@ -364,7 +357,7 @@ export const projectsData = [
         {
           id: uuidv4(),
           title: "Website",
-          details: "https://tomiwakukoyi.github.io/infocrypto/",
+          webdetails: "https://tomiwakukoyi.github.io/infocrypto/",
         },
       ],
       ObjectivesHeading: "Objective",
@@ -468,7 +461,7 @@ export const projectsData = [
         {
           id: uuidv4(),
           title: "Website",
-          details: "https://tomiwakukoyi.github.io/artsy/",
+          webdetails: "https://tomiwakukoyi.github.io/artsy/",
         },
       ],
       ObjectivesHeading: "Objective",
@@ -567,7 +560,7 @@ export const projectsData = [
   //       {
   //         id: uuidv4(),
   //         title: "Website",
-  //         details: "https://company.com",
+  //         webdetails: "https://company.com",
   //       },
   //       {
   //         id: uuidv4(),

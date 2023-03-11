@@ -2,7 +2,6 @@ import Image from "next/image";
 import { FiClock, FiTag } from "react-icons/fi";
 import PagesMetaHead from "../../components/PagesMetaHead";
 import { projectsData } from "../../data/projectsData";
-import RelatedProjects from "../../components/projects/RelatedProjects";
 
 function ProjectSingle(props) {
   return (
@@ -66,7 +65,7 @@ function ProjectSingle(props) {
                   >
                     <span>{info.title}: </span>
                     <a
-                      href="https://stoman.me"
+                      href={info.webdetails}
                       className={
                         info.title === "Website" || info.title === "Phone"
                           ? "hover:underline hover:text-indigo-500 dark:hover:text-indigo-400 cursor-pointer duration-300"
@@ -75,6 +74,7 @@ function ProjectSingle(props) {
                       aria-label="Project Website and Phone"
                     >
                       {info.details}
+                      {info.webdetails}
                     </a>
                   </li>
                 );
