@@ -3,6 +3,89 @@ import { v4 as uuidv4 } from "uuid";
 export const projectsData = [
   {
     id: 1,
+    title: "Spotify Clone ",
+    url: "spotify-clone",
+    category: "Web Application",
+    img: "/images/spotify.png",
+    ProjectHeader: {
+      title: "Spotify Clone",
+      publishDate: "Feb, 2023",
+      tags: "UI / Frontend",
+    },
+    ProjectImages: [
+      {
+        id: uuidv4(),
+        title: "Spotify Clone",
+        img: "/images/spotify1.png",
+      },
+      {
+        id: uuidv4(),
+        title: "Spotify Clone",
+        img: "/images/spotify2.png",
+      },
+      {
+        id: uuidv4(),
+        title: "Spotify Clone",
+        img: "/images/spotify3.png",
+      },
+    ],
+    ProjectInfo: {
+      ClientHeading: "About Client",
+      CompanyInfo: [
+        {
+          id: uuidv4(),
+          title: "Name",
+          details: "Personal Project",
+        },
+        {
+          id: uuidv4(),
+          title: "Services",
+          details: "Web Development",
+        },
+        {
+          id: uuidv4(),
+          title: "Website",
+          webdetails: "https://spotify-clone-tomiwakukoyi.vercel.app/",
+        },
+      ],
+      ObjectivesHeading: "Objective",
+      ObjectivesDetails:
+        "The objective was to make a web app like spotify and also get some live data from the spotify API",
+      Technologies: [
+        {
+          title: "Tools & Technologies",
+          techs: [
+            "React JS",
+            "Spotify API / Spotify Web API",
+            "JavaScript",
+            "Context API",
+            "CSS",
+            "Materal UI",
+          ],
+        },
+      ],
+      ProjectDetailsHeading: "Challenge",
+      ProjectDetails: [
+        {
+          id: uuidv4(),
+          details:
+            "The major challeneg I faced while  working on this project was working with the spotify API. Thanks to 'Spotify Web API Js that made getting around the spotify API a bit easy, it was still difficult.",
+        },
+        {
+          id: uuidv4(),
+          details:
+            "The javascript was a bit to complex, also adding Context API to it just made it even more difficult and quite confusing honestly.",
+        },
+        {
+          id: uuidv4(),
+          details:
+            "I at the end with the help of friends and online resources scaled through all problems and eventually got the APP to work. Apart from that, there wasn't really anything too challenging.",
+        },
+      ],
+    },
+  },
+  {
+    id: 2,
     title: "Disney X Clone ",
     url: "disney-x-clone",
     category: "Web Application",
@@ -42,6 +125,11 @@ export const projectsData = [
           title: "Services",
           details: "Web Development",
         },
+        {
+          id: uuidv4(),
+          title: "Website",
+          webdetails: "https://github.com/Tomiwakukoyi/disneyclone.git",
+        },
       ],
       ObjectivesHeading: "Objective",
       ObjectivesDetails:
@@ -76,43 +164,10 @@ export const projectsData = [
             "A lesser challenge I faced was building the UI. It was pretty straight forward to build and debug because I used styled-components for it.",
         },
       ],
-      // SocialSharingHeading: "Share This",
-      // SocialSharing: [
-      // 	{
-      // 		id: uuidv4(),
-      // 		name: 'Twitter',
-      // 		icon: <FiTwitter />,
-      // 		url: 'https://twitter.com/realstoman',
-      // 	},
-      // 	{
-      // 		id: uuidv4(),
-      // 		name: 'Instagram',
-      // 		icon: <FiInstagram />,
-      // 		url: 'https://instagram.com/realstoman',
-      // 	},
-      // 	{
-      // 		id: uuidv4(),
-      // 		name: 'Facebook',
-      // 		icon: <FiFacebook />,
-      // 		url: 'https://facebook.com/',
-      // 	},
-      // 	{
-      // 		id: uuidv4(),
-      // 		name: 'LinkedIn',
-      // 		icon: <FiLinkedin />,
-      // 		url: 'https://linkedin.com/',
-      // 	},
-      // 	{
-      // 		id: uuidv4(),
-      // 		name: 'Youtube',
-      // 		icon: <FiYoutube />,
-      // 		url: 'https://www.youtube.com/c/StomanStudio',
-      // 	},
-      // ],
     },
   },
   {
-    id: 2,
+    id: 3,
     title: "ShopIT Ecommerce",
     url: "shopit",
     category: "Web Application",
@@ -179,43 +234,10 @@ export const projectsData = [
           details: "Asides that, it was all good thanks to the docs.",
         },
       ],
-      // SocialSharingHeading: "Share This",
-      // SocialSharing: [
-      // 	{
-      // 		id: uuidv4(),
-      // 		name: 'Twitter',
-      // 		icon: <FiTwitter />,
-      // 		url: 'https://twitter.com/realstoman',
-      // 	},
-      // 	{
-      // 		id: uuidv4(),
-      // 		name: 'Instagram',
-      // 		icon: <FiInstagram />,
-      // 		url: 'https://instagram.com/realstoman',
-      // 	},
-      // 	{
-      // 		id: uuidv4(),
-      // 		name: 'Facebook',
-      // 		icon: <FiFacebook />,
-      // 		url: 'https://facebook.com/',
-      // 	},
-      // 	{
-      // 		id: uuidv4(),
-      // 		name: 'LinkedIn',
-      // 		icon: <FiLinkedin />,
-      // 		url: 'https://linkedin.com/',
-      // 	},
-      // 	{
-      // 		id: uuidv4(),
-      // 		name: 'Youtube',
-      // 		icon: <FiYoutube />,
-      // 		url: 'https://www.youtube.com/c/StomanStudio',
-      // 	},
-      // ],
     },
   },
   {
-    id: 3,
+    id: 4,
     title: "Youtube Clone",
     url: "youtube-clone",
     category: "Web Devleopment",
@@ -278,43 +300,10 @@ export const projectsData = [
             "On this project, I collaborated with a collegue to work on it and we didnt face issues as it was quite straight forward.",
         },
       ],
-      // SocialSharingHeading: "Share This",
-      // SocialSharing: [
-      // 	{
-      // 		id: uuidv4(),
-      // 		name: 'Twitter',
-      // 		icon: <FiTwitter />,
-      // 		url: 'https://twitter.com/realstoman',
-      // 	},
-      // 	{
-      // 		id: uuidv4(),
-      // 		name: 'Instagram',
-      // 		icon: <FiInstagram />,
-      // 		url: 'https://instagram.com/realstoman',
-      // 	},
-      // 	{
-      // 		id: uuidv4(),
-      // 		name: 'Facebook',
-      // 		icon: <FiFacebook />,
-      // 		url: 'https://facebook.com/',
-      // 	},
-      // 	{
-      // 		id: uuidv4(),
-      // 		name: 'LinkedIn',
-      // 		icon: <FiLinkedin />,
-      // 		url: 'https://linkedin.com/',
-      // 	},
-      // 	{
-      // 		id: uuidv4(),
-      // 		name: 'Youtube',
-      // 		icon: <FiYoutube />,
-      // 		url: 'https://www.youtube.com/c/StomanStudio',
-      // 	},
-      // ],
     },
   },
   {
-    id: 4,
+    id: 7,
     title: "InfoCrypto",
     url: "infocrypto",
     category: "Web Application",
@@ -382,39 +371,6 @@ export const projectsData = [
             "The other serious issue I had was the search feature being implemented, it was quite difficult. I however found my wasy round it somehow and ensured the feature was working.",
         },
       ],
-      // SocialSharingHeading: "Share This",
-      // SocialSharing: [
-      // 	{
-      // 		id: uuidv4(),
-      // 		name: 'Twitter',
-      // 		icon: <FiTwitter />,
-      // 		url: 'https://twitter.com/realstoman',
-      // 	},
-      // 	{
-      // 		id: uuidv4(),
-      // 		name: 'Instagram',
-      // 		icon: <FiInstagram />,
-      // 		url: 'https://instagram.com/realstoman',
-      // 	},
-      // 	{
-      // 		id: uuidv4(),
-      // 		name: 'Facebook',
-      // 		icon: <FiFacebook />,
-      // 		url: 'https://facebook.com/',
-      // 	},
-      // 	{
-      // 		id: uuidv4(),
-      // 		name: 'LinkedIn',
-      // 		icon: <FiLinkedin />,
-      // 		url: 'https://linkedin.com/',
-      // 	},
-      // 	{
-      // 		id: uuidv4(),
-      // 		name: 'Youtube',
-      // 		icon: <FiYoutube />,
-      // 		url: 'https://www.youtube.com/c/StomanStudio',
-      // 	},
-      // ],
     },
   },
   {
@@ -481,39 +437,6 @@ export const projectsData = [
             "This project was really just basic and straight forward, there were no challenges here.",
         },
       ],
-      // SocialSharingHeading: "Share This",
-      // SocialSharing: [
-      // 	{
-      // 		id: uuidv4(),
-      // 		name: 'Twitter',
-      // 		icon: <FiTwitter />,
-      // 		url: 'https://twitter.com/realstoman',
-      // 	},
-      // 	{
-      // 		id: uuidv4(),
-      // 		name: 'Instagram',
-      // 		icon: <FiInstagram />,
-      // 		url: 'https://instagram.com/realstoman',
-      // 	},
-      // 	{
-      // 		id: uuidv4(),
-      // 		name: 'Facebook',
-      // 		icon: <FiFacebook />,
-      // 		url: 'https://facebook.com/',
-      // 	},
-      // 	{
-      // 		id: uuidv4(),
-      // 		name: 'LinkedIn',
-      // 		icon: <FiLinkedin />,
-      // 		url: 'https://linkedin.com/',
-      // 	},
-      // 	{
-      // 		id: uuidv4(),
-      // 		name: 'Youtube',
-      // 		icon: <FiYoutube />,
-      // 		url: 'https://www.youtube.com/c/realstoman',
-      // 	},
-      // ],
     },
   },
   {
@@ -597,39 +520,6 @@ export const projectsData = [
             "Another intersting aspect of this project was when I had to create my own custom hook for calling the API data. Custom hooks are really great!",
         },
       ],
-      // SocialSharingHeading: "Share This",
-      // SocialSharing: [
-      // 	{
-      // 		id: uuidv4(),
-      // 		name: 'Twitter',
-      // 		icon: <FiTwitter />,
-      // 		url: 'https://twitter.com/realstoman',
-      // 	},
-      // 	{
-      // 		id: uuidv4(),
-      // 		name: 'Instagram',
-      // 		icon: <FiInstagram />,
-      // 		url: 'https://instagram.com/realstoman',
-      // 	},
-      // 	{
-      // 		id: uuidv4(),
-      // 		name: 'Facebook',
-      // 		icon: <FiFacebook />,
-      // 		url: 'https://facebook.com/',
-      // 	},
-      // 	{
-      // 		id: uuidv4(),
-      // 		name: 'LinkedIn',
-      // 		icon: <FiLinkedin />,
-      // 		url: 'https://linkedin.com/',
-      // 	},
-      // 	{
-      // 		id: uuidv4(),
-      // 		name: 'Youtube',
-      // 		icon: <FiYoutube />,
-      // 		url: 'https://www.youtube.com/c/StomanStudio',
-      // 	},
-      // ],
     },
   },
 ];
