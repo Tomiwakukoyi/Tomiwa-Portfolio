@@ -5,17 +5,20 @@ const socialLinks = [
   {
     id: 2,
     icon: <FiGithub />,
+    name: "GitHub",
     url: "https://github.com/tomiwakukoyi",
   },
   {
     id: 3,
     icon: <FiTwitter />,
+    name: "Twitter",
     url: "https://twitter.com/thetommyk_",
   },
   {
     id: 4,
     icon: <FiLinkedin />,
-    url: "https://www.linkedin.com/in/oluwatomiwakukoyi07",
+    name: "LinkedIn",
+    url: "https://www.linkedin.com/in/tomiwakukoyi",
   },
 ];
 
@@ -24,8 +27,8 @@ function AppFooter() {
     <div className="container mx-auto">
       <div className="pt-20 sm:pt-30 pb-8 mt-20 border-t-2 border-primary-light dark:border-secondary-dark">
         {/* Footer social links */}
-        <div className="font-general-regular flex flex-col justify-center items-center mb-12 sm:mb-28">
-          <p className="text-3xl sm:text-4xl text-primary-dark dark:text-primary-light mb-5">
+        <div className=" flex flex-col justify-center items-center mb-12 sm:mb-28">
+          <p className="font-general-regular text-3xl sm:text-4xl text-primary-dark dark:text-primary-light mb-5">
             Follow me
           </p>
           <ul className="flex gap-4 sm:gap-8">
@@ -40,6 +43,11 @@ function AppFooter() {
               </a>
             ))}
           </ul>
+          <div className=" flex items-center justify-evenly gap-5 md:gap-10 mt-1 ml-3 font-sans font-normal text-white">
+            <text>{socialLinks[0].name}</text>
+            <text>{socialLinks[1].name}</text>
+            <text>{socialLinks[2].name}</text>
+          </div>
         </div>
 
         <AppFooterCopyright />
