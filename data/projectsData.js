@@ -3,29 +3,29 @@ import { v4 as uuidv4 } from "uuid";
 export const projectsData = [
   {
     id: 1,
-    title: "Spotify Clone ",
+    title: "Spotify  ",
     url: "spotify-clone",
     category: "Web Application",
     img: "/images/spotify.png",
     ProjectHeader: {
-      title: "Spotify Clone",
+      title: "Spotify ",
       publishDate: "Feb, 2023",
       tags: "UI / Frontend",
     },
     ProjectImages: [
       {
         id: uuidv4(),
-        title: "Spotify Clone",
+        title: "Spotify ",
         img: "/images/spotify1.png",
       },
       {
         id: uuidv4(),
-        title: "Spotify Clone",
+        title: "Spotify ",
         img: "/images/spotify2.png",
       },
       {
         id: uuidv4(),
-        title: "Spotify Clone",
+        title: "Spotify ",
         img: "/images/spotify3.png",
       },
     ],
@@ -86,29 +86,29 @@ export const projectsData = [
   },
   {
     id: 2,
-    title: "Disney X Clone ",
+    title: "Disney X  ",
     url: "disney-x-clone",
     category: "Web Application",
     img: "/images/disney.png",
     ProjectHeader: {
-      title: "Disney X Clone App",
+      title: "Disney X  App",
       publishDate: "Oct, 2022",
       tags: "UI / Frontend",
     },
     ProjectImages: [
       {
         id: uuidv4(),
-        title: "Disney X Clone ",
+        title: "Disney X  ",
         img: "/images/disney1.png",
       },
       {
         id: uuidv4(),
-        title: "Disney X Clone ",
+        title: "Disney X  ",
         img: "/images/disney2.png",
       },
       {
         id: uuidv4(),
-        title: "Disney X Clone ",
+        title: "Disney X  ",
         img: "/images/disney3.png",
       },
     ],
@@ -238,29 +238,29 @@ export const projectsData = [
   },
   {
     id: 4,
-    title: "Youtube Clone",
+    title: "Youtube ",
     url: "youtube-clone",
     category: "Web Devleopment",
     img: "/images/youtube.png",
     ProjectHeader: {
-      title: "Youtube Clone App",
+      title: "Youtube  App",
       publishDate: "Jul 26, 2021",
       tags: "UI / Frontend",
     },
     ProjectImages: [
       {
         id: uuidv4(),
-        title: "Youtube Clone",
+        title: "Youtube ",
         img: "/images/youtube1.png",
       },
       {
         id: uuidv4(),
-        title: "Youtube Clone",
+        title: "Youtube ",
         img: "/images/youtube2.png",
       },
       {
         id: uuidv4(),
-        title: "Youtube Clone",
+        title: "Youtube ",
         img: "/images/youtube3.png",
       },
     ],

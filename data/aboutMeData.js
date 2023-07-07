@@ -3,10 +3,10 @@ import { v4 as uuidv4 } from "uuid";
 export const aboutMeData = [
   {
     id: uuidv4(),
-    bio: "I am a resilient web developer and I build Frontend UI with the best and mordern tools. I write clean, well structured and easy to read and understand code. I work with various modern technologies React Js, Next Js, Vue Js etc. to implement whatever design or functionality that needs to be implemented. I style using TailwindCss, Styled-Components, CSS/SCSS, depending on the project I use two or all of them at once sometimes to play around and make things easy",
+    bio: " Creative, skilled and hardworking Website Developer with over three years of experience in developing high-quality, user-friendly and responsive websites and web applications for local companies and international companies including companies in UK, Germany, India. I am skilled in modern technology like React JS, React Native Python and Tailwind CSS to build user interface that improves the user experience. I have experience working in cross-functional teams harmonically and delivered excellently. I always stay up-to-date with the best practices and latest but relevant technologies in website development to ensure I’m always ahead and I stay delivering quality and effective web applications and mobile applications.",
   },
   {
     id: uuidv4(),
-    bio: "Though I am a Frontend Developer, I'm a certified Python/Django developer so I know how the backend mechanism works. I am a good team player and can fit myself in almost any working environment or situation and still give top quality. ",
+    bio: "Diploma degree in Computer Science from the University of Lagos and Bachelor of Science degree in Mathematics Education. I also possess multiple professional certifications including one from Meta(Facebook)",
   },
 ];
