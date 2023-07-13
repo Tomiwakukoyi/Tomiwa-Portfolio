@@ -11,7 +11,7 @@ function AboutMeBio() {
           src="/images/tomiwa.jpg"
           width={200}
           height={200}
-          className="rounded-lg sm:ml-5"
+          className="rounded-lg sm:ml-5 sm:mt-7 sm:w-[110%]"
           alt="Profile Image"
         />
       </div>

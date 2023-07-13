@@ -3,7 +3,7 @@ import CounterItem from "./CounterItem";
 
 function AboutCounter() {
   useCountUp({ ref: "experienceCounter", end: 3, duration: 2 });
-  useCountUp({ ref: "githubStarsCounter", end: 35, duration: 2 });
+  useCountUp({ ref: "githubStarsCounter", end: 25, duration: 2 });
   useCountUp({ ref: "feedbackCounter", end: 92, duration: 2 });
   useCountUp({ ref: "projectsCounter", end: 20, duration: 2 });
 
