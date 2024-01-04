@@ -3,14 +3,14 @@ import { v4 as uuidv4 } from "uuid";
 export const aboutMeData = [
   {
     id: uuidv4(),
-    bio: " Creative, skilled and hardworking Website Developer with over three years of experience in developing high-quality, user-friendly and responsive websites and web applications for local companies and international companies including companies in UK, Germany and India. ",
+    bio: " I am a highly skilled and motivated software engineer with a passion for developing innovative solutions.",
   },
   {
     id: uuidv4(),
-    bio: " I am skilled in modern technology like React.js, Next.js, React Native, Python, Django, Tailwind CSS etc to build user interface that improves the user experience. I have experience working in cross-functional teams harmonically and delivered excellently. I always stay up-to-date with the best practices and latest but relevant technologies in website development to ensure I’m always ahead and I stay delivering quality and effective Web and Mobile Applications.",
+    bio: " My expertise lies in JavaScript, React.js, Next.js, Python, Tailwind CSS and AWS and I thrive on building robust web applications that suite your needs and follows the industry's best practices. During my time working remotely as a Frontend developer and AWS engineer at Ambify Uk, I played a pivotal role in the setup of the AWS structure especially as it translates to the Frontend part of the application and also, I led the development of the Frontend (Dashboard and Landing page).My projects, including a Mobile App for searching for jobs highlights my proficiency in React / React Native and Full stack development.",
   },
   {
     id: uuidv4(),
-    bio: "Diploma degree in Computer Science from the University of Lagos and Bachelor of Science degree in Mathematics Education. I also possess multiple professional certifications including one from Meta(Facebook)",
+    bio: "With a strong foundation in Computer Science from Havard X and strong Maths foundation from the University of Lagos, I am dedicated to continuous learning and driving technological advancements. Lets connect to explore collaboration opportunities and witness my exceptional problem-solving abilities firsthand.",
   },
 ];
