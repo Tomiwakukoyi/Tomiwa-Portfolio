@@ -12,7 +12,7 @@ const socialLinks = [
     id: 3,
     icon: <FiTwitter />,
     name: "Twitter",
-    url: "https://twitter.com/thetommyk_",
+    url: "https://twitter.com/tommyk_dev",
   },
   {
     id: 4,
